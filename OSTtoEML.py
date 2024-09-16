@@ -1,3 +1,8 @@
+# Stuart's code to extract emails from a PST or OST file
+# Recurses folders in PST file
+# creates an EML file from any message or item that contains a message transport header
+# source and destination definitions at the bottom of the code
+
 import pypff
 import os
 from email import message_from_string
