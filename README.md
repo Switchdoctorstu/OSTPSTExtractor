@@ -1,7 +1,7 @@
 # OSTPSTExtractor
-Python programme to iterate OST or PST files and extract emails complete with attachments
+Python programme using pypff libraries to iterate OST or PST files and extract emails complete with attachments
 
-Recurses Folders within the PST or OST file.
+Uses pypff to recurse Folders within the PST or OST file.
 Writes out Mail elements found into separate .eml files in a folder structure taken from the PST or OST file structure
 
 For the inbox folder i found the emails as sub-items so i recursed those elements too.
